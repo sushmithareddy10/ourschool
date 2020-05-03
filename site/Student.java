@@ -1,6 +1,6 @@
-package sush;
 
-public class Student {
+
+public class Students {
 	private int rollNo;
 	private String name;
 	public int getRollNo() {
@@ -16,12 +16,12 @@ public class Student {
 		this.name = name;
 	}
 	
-	public Student(int rollNo,String name)
+	public Students(int rollNo,String name)
 	{
 		this.rollNo=rollNo;
 		this.name=name;
 	}
-	public Student()
+	public Students()
 	{
 		
 	}
